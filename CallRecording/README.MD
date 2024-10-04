@@ -63,7 +63,7 @@ Once App is running local, you will see all list of exposed API on swagger.
 	-	Try it out `GET StartRecording`, provide the serverCallId value, optional if recording the same call started in step1.
 	- 	`Execute`, recording would be started.
 3. Step 3. (Optional) Execute `POST PauseRecording` and then `POST ResumeRecording`, passing recordingId is optional.
-4. Step 4. Execute `DELETE StopReocording` for stop the recording.
+4. Step 4. Execute `DELETE StopRecording` for stop the recording.
 5. Step 5. Execute `GET DownloadRecording` for downloading the recording from server, only last recorded file will be downloaded.
 6. Step 6. Execute `DELETE DeleteRecording` for delete the recording at server.
 
